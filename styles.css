@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper{
+    position: relative;
+}
+
+body{
+    margin-top: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    background-color: aliceblue;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+main{
+    margin-top: 180px;
+}
+
+#logo-img{
+    width: 35%;
+    margin: auto 0 0 3rem   ;
+}
+
+nav{
+    display: block;
+    font-weight: 500;
+}  
+
+nav > ul{
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.nav-list{
+    list-style: none;
+    margin: 0 0 0 -5rem;
+    padding-right: 2%;
+}
+
+.nav-link{
+    color: black;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 80px;
+}
+
+
+.nav-link:hover{
+    color: aqua;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.container{
+    margin-top: 5rem;
+    width: 100%;
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.card{
+    grid-area: i11;
+    background-color: azure;
+    margin-left: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+    width: 50vh;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 1px 2px rgb(175, 173, 173);
+    
+}
+
+.card > h2{
+    margin-top: 1rem;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    z-index: -1;
+}
+
+
+.city-img{
+    width: 40vh;
+    height: 200px;
+    margin: 20px auto;
+}
+
+.card-text{
+    text-align: left;
+    padding: 5%;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin-bottom: 5rem;
+}
+
+#about-us-title{
+    margin: 5rem auto;
+    
+}
+.description{
+    margin: 0 0 3rem 3rem;
+}
+
+
+
+@media(max-width: 500px){
+
+    header{
+        display: block-inline;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+
+    nav>ul{
+        margin-left: 10%;
+        margin-right: auto;
+    }
+
+    #logo-img{
+        width: 20%;
+        margin-left: 40%;
+        margin-right: auto;
+        
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    
+
+
+
+}
