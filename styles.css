@@ -152,6 +152,38 @@ h2{
     font-size: 2rem;
 }
 
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#name{
+    align-self: center;
+}
+
+#copy{
+    margin: 1.25rem;
+    font-size: 1rem;
+}
+
+.footer-img{
+    width: 7vh;
+    opacity: 0.9;
+}
+
+
+
 
 
 @media(max-width: 500px){
