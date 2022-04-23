@@ -78,6 +78,11 @@ h2{
     text-align: center;
 }
 
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
 .container{
     margin-top: 5rem;
     width: 100%;
@@ -183,6 +188,39 @@ h2{
 .footer-img{
     width: 6vh;
     opacity: 0.9;
+}
+
+.where-to-go-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.where-to-go{
+    width: 80%;
+    justify-self: center;
+    background-color: red;
+}
+fieldset{
+    border-style: solid;
+    border-color:rgb(110, 110, 231);
+    border-width: 1px;
+    border-radius: 3px;
+    justify-self: center;
+}
+
+.h1-form{
+    text-align: center;
+}
+
+.where-to-go > label{
+    font-size: 1.5rem;
+    padding: 10px 10px 10px 10px;
+}
+
+.answer{
+    align-items: center;
 }
 
 
