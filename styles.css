@@ -227,10 +227,10 @@ fieldset{
 
 
 
-@media(max-width: 500px){
+@media(max-width: 700px){
 
     header{
-        display: block-inline;
+        min-height: 10%;
     }
 
     .nav-link{
@@ -244,21 +244,14 @@ fieldset{
     }
 
     #logo-img{
-        width: 20%;
         margin-left: 40%;
         margin-right: auto;
-        
     }
 
     h1{
         font-size: 3rem;
     }
-
-    .city-img{
-        width: 25%;
-        height: 25%;
-    }
-
+    
     #name-footer{
         font-size: 2rem;
     }
