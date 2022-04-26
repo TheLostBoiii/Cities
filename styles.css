@@ -83,6 +83,7 @@ h3{
     text-align: center;
 }
 
+
 .container{
     margin-top: 5rem;
     width: 100%;
@@ -115,21 +116,23 @@ h3{
     margin-top: 1rem;
 }
 
-.card:hover{
-    transform: scale(1.05);
-    z-index: -1;
-}
 
-.card-img{
+
+.card-img > a{
     height: 35vh;
     display: flex;
     justify-self: center;
 
 }
 
+.card-img > a:hover{
+    transform: scale(1.05);
+}
+
 .city-img{
     width: 40vh;
     margin: 20px auto;
+    border-radius: 50%;
 }
 
 .card-text{
@@ -165,6 +168,7 @@ h3{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    margin-top: 3rem;
 }
 
 .footer-text{
@@ -195,15 +199,16 @@ h3{
 }
 .where-to-go{
     width: 80%;
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 fieldset{
     width: 70%;
     border-style: solid;
-    border-color:rgb(110, 110, 231);
+    border-color:rgb(85, 162, 244);
     border-width: 1px;
-    border-radius: 3px;
+    border-radius: 10px;
     display:flex;
     justify-content: center;
     background-color: azure;
@@ -212,6 +217,9 @@ fieldset{
 .h1-form{
     text-align: center;
     background-color: aliceblue;
+    border-radius: 10px;
+    border: solid 1px rgb(85, 162, 244);
+    padding: 2rem;
 }
 .answer{
     display: flex;
@@ -220,13 +228,37 @@ fieldset{
 }
 
 .answer > label{
-    align-items: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 10px 10px 10px 10px;
 }
 
 .answer > input[type="radio"]{
-    font-size: 4rem;
+    margin-left: 20px;
+    transform: scale(1.5);
+}
+
+.answer > input[type="checkbox"]{
+    margin-left: 20px;
+    transform: scale(1.5);
+}
+
+.where-to-go > input[type="submit"]{
+    align-self: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    min-width: 100px;
+    min-height: 50px;
+    width: 10%;
+    font-size: 1.5rem;
+    background-color: rgb(85, 162, 244);
+    border: solid 1px rgb(85, 162, 244);
+    border-radius: 10px;
+    padding: auto;
+    transform: scale(1.2);
+}
+
+.where-to-go > input[type="submit"]:hover{
+   transform: scale(1.2);
 }
 
 
