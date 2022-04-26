@@ -189,38 +189,44 @@ h3{
     width: 6vh;
     opacity: 0.9;
 }
-
 .where-to-go-container{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
 }
-
 .where-to-go{
     width: 80%;
     justify-self: center;
-    background-color: red;
 }
+
 fieldset{
+    width: 70%;
     border-style: solid;
     border-color:rgb(110, 110, 231);
     border-width: 1px;
     border-radius: 3px;
-    justify-self: center;
+    display:flex;
+    justify-content: center;
+    background-color: azure;
 }
 
 .h1-form{
     text-align: center;
+    background-color: aliceblue;
+}
+.answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.where-to-go > label{
-    font-size: 1.5rem;
+.answer > label{
+    align-items: center;
+    font-size: 2.5rem;
     padding: 10px 10px 10px 10px;
 }
 
-.answer{
-    align-items: center;
+.answer > input[type="radio"]{
+    font-size: 4rem;
 }
 
 
