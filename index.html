@@ -16,8 +16,8 @@
                 <nav id="nav-bar">
                     <ul>
                         <li class="nav-list"><a class="nav-link" href="#Cities">Cities </a></li>
-                        <li class="nav-list"><a class="nav-link" href="#About-us">About Us </a></li>
                         <li class="nav-list"><a class="nav-link" href="#Form">Where to go?</a></li>
+                        <li class="nav-list"><a class="nav-link" href="#About-us">About Us </a></li>
                     </ul>
                 </nav>
             </div>
@@ -100,7 +100,7 @@
                                 <img class="city-img" src="img/miami.jpg" alt="Miami">
                             </a>
                         </div>
-                        <p class="card-text">Located in United States.</p>
+                        <p class="card-text">Located in USA.</p>
                     </article>
                     <article class="card" id="item9">
                         <h2>Buenos Aires</h2>
@@ -115,6 +115,58 @@
                 </div>
             </section>
 
+            <div class="where-to-go-container">
+                <a name="Form"></a>
+                <fieldset>
+                    <legend class="h1-form">
+                        <h1>Where to go?</h1>
+                    </legend>
+                    <form class="where-to-go">
+                        <h3>More day or night?</h3>
+                        <div class="answer">
+                            <input type="radio" id="day" name="hour" value="day">
+                            <label for="day">Day</label>
+        
+                            <input type="radio" id="night" name="hour" value="night">
+                            <label for="night">Night</label>
+                        </div>
+        
+                        <h3> Would you rather beach or mountain?</h3>
+                        <div class="answer">
+                            <input type="radio" id="beach" name="place" value="beach">
+                            <label for="beach">Beach</label>
+        
+        
+                            <input type="radio" id="mountain" name="place" value="mountain">
+                            <label for="mountain">Mountain</label>
+                        </div>
+                        <h3>¿¿Cold or hot??</h3>
+                        <div class="answer">
+                            <input type="radio" id="hot" name="temperature" value="hot">
+                            <label for="hot">Hot</label>
+        
+                            <input type="radio" id="cold" name="temperature" value="cold">
+                            <label for="cold">Cold</label>
+                        </div>
+                        <h3>Which orientation do you like the most??</h3>
+                        <div class="answer">
+                            <input type="checkbox" id="north" name="orientation" value="north">
+                            <label for="north">North</label>
+        
+                            <input type="checkbox" id="south" name="orientation" value="south">
+                            <label for="south">South</label>
+        
+                            <input type="checkbox" id="east" name="orientation" value="east">
+                            <label for="east">East</label>
+        
+                            <input type="checkbox" id="west" name="orientation" value="west">
+                            <label for="west">West</label>
+                        </div>
+                        <input type="submit" id="submit" value="Submit">
+                </fieldset>
+                </form>
+            </div>
+
             <section class="about-us">
                 <a name="About-us"></a>
                 <h1 id="about-us-title">About Us</h1>
@@ -127,57 +179,7 @@
         </main>
     </div>
 
-    <div class="where-to-go-container">
-        <a name="Form"></a>
-        <fieldset>
-            <legend class="h1-form">
-                <h1>Where to go?</h1>
-            </legend>
-            <form class="where-to-go">
-                <h3>More day or night?</h3>
-                <div class="answer">
-                    <input type="radio" id="day" name="hour" value="day">
-                    <label for="day">Day</label>
-
-                    <input type="radio" id="night" name="hour" value="night">
-                    <label for="night">Night</label>
-                </div>
-
-                <h3> Would you rather beach or mountain?</h3>
-                <div class="answer">
-                    <input type="radio" id="beach" name="place" value="beach">
-                    <label for="beach">Beach</label>
-
-
-                    <input type="radio" id="mountain" name="place" value="mountain">
-                    <label for="mountain">Mountain</label>
-                </div>
-                <h3>¿¿Cold or hot??</h3>
-                <div class="answer">
-                    <input type="radio" id="hot" name="temperature" value="hot">
-                    <label for="hot">Hot</label>
-
-                    <input type="radio" id="cold" name="temperature" value="cold">
-                    <label for="cold">Cold</label>
-                </div>
-                <h3>Which orientation do you like the most??</h3>
-                <div class="answer">
-                    <input type="checkbox" id="north" name="orientation" value="north">
-                    <label for="north">North</label>
-
-                    <input type="checkbox" id="south" name="orientation" value="south">
-                    <label for="south">South</label>
-
-                    <input type="checkbox" id="east" name="orientation" value="east">
-                    <label for="east">East</label>
-
-                    <input type="checkbox" id="west" name="orientation" value="west">
-                    <label for="west">West</label>
-                </div>
-                <input type="submit" id="submit" value="Submit">
-        </fieldset>
-        </form>
-    </div>
+    
 </body>
 <footer>
     <div class="footer-container">
